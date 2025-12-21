@@ -1,3 +1,12 @@
+## 🚀 Download & Run (No Installation Needed)
+
+1. Download `keyguard.exe` from this repository
+2. Double-click it (run as Administrator when prompted)
+3. Follow the setup — write down your passphrase AND recovery code!
+4. Reboot to test
+
+→ Always try `keyguard_test_mode.py` first if you're unsure!
+
 KeyGuard - Instant Windows Boot Lock with Recovery EXTREME CAUTION: This tool locks your Windows PC instantly on boot — before the desktop appears.
 You will not be able to use your computer until you enter the correct passphrase (or your one-time recovery code).
 Forgetting both the passphrase and recovery code will require a full Windows reinstall.Use only if you fully understand the risk. Always test with the safe mode first!What is KeyGuard?KeyGuard is a lightweight, open-source Windows boot-time authentication system written in Python. It provides strong physical-access protection by:Locking the system instantly on startup (zero delay)
@@ -71,3 +80,12 @@ The author is not responsible for data loss, lockouts, or system issues.
 Always keep your recovery code safe and separate from your main passphrase.Test thoroughly with keyguard_test_mode.py before activating real mode!Made with  for privacy and security
 Open source • No telemetry • No nonsenseFeel free to star, fork, or contribute! Issues and suggestions welcome.
 
+## Known Limitation: Multi-Monitor Setups
+
+KeyGuard works best with a single monitor or duplicated displays.
+
+In extended multi-monitor mode:
+- Secondary monitors may remain partially accessible (mouse/keyboard input works).
+- This reduces protection strength.
+
+Recommendation: Use "Duplicate" mode (Win+P) for strongest security, or disconnect secondary monitors when high security is needed.
